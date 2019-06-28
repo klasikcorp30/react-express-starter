@@ -15,7 +15,7 @@ export class Frameworks extends Component {
             <div>
                 <ul>
                     {this.state.frameworks.map(framework =>
-                        <li key={framework.id}>{framework.name}</li>    
+                        <li key={framework.id}><a href={framework.link}>{framework.name}</a></li>    
                     )}
                 </ul>
             </div>

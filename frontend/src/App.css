@@ -11,6 +11,10 @@ li{
   align-content: center;
   justify-content: center;
 }
+a{
+  color: #fff;
+  text-decoration: none;
+}
 h1{
   text-align: center;
 }
